@@ -8,9 +8,14 @@ This section will strictly cover the ddaplha(1).R file.
 
 In this file you will find a varietly of data depth functions. Most of these functions are currently set to be used with data that is in R^10.
 
-In order to change this, replace the line 
+In order to change this, replace the line:
 
-"i <- 10" with "i <- DIMENSION_OF_YOUR_DATA"
+"i <- i + 10" with "i <-i + DIMENSION_OF_YOUR_DATA"
+
+and the line:
+
+
+"m <- i + 9" with "i <- i + DIMENSION_OF_YOUR_DATA-1"
 
 ![Change ddalpha file](./ddalpha_1.png)
 
