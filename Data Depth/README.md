@@ -4,6 +4,17 @@ In this directory, you will find files related to data depth.
 
 The ddalpha(1).R file is meant to be used with the "5_29_new_data_PD_vectorization_and_fire_index_(useful).ipynb" python notebook.
 
+This section will strictly cover the ddaplha(1).R file.
+
+In this file you will find a varietly of data depth functions. Most of these functions are currently set to be used with data that is in R^10.
+
+In order to change this, replace the line 
+
+"i <- 10" with "i <- DIMENSION_OF_YOUR_DATA"
+
+![Change ddalpha file](./ddalpha_1.png)
+
+
 # Extremal Data Depth
 
 In the cell below, you will add your data in "S = []".
