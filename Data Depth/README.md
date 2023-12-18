@@ -10,3 +10,8 @@ Example: S = [np.array([0.00000000e+00, 0.00000000e+00, 2.20226974e-03, 2.559814
        0.11532577, 0.15169396, 0.1701804 , 0.1134536 , 0.0567268 ]))]
 
 ![Add data here](./extremal_data_depth_1.png)
+
+After running all cells, you can save the results to a csv in the following cell:
+![Save results to csv](./extremal_data_depth_2.png)
+
+Note: This saves the csv to your Google Drive NOT your local machine.
