@@ -7,10 +7,10 @@ simplicial_volume_list <- function(python_vector, data_points, data_dim) {
   simplicial_volume_List <- list()
   i <- 1
   while(i < data_points*data_dim){
-    m <-  i + 4
+    m <-  i + 9
     x1 <- data[i:m]
     depths1 <- depth.simplicialVolume(x1, data, exact = F)
-    i <- i + 5
+    i <- i + 10
     simplicial_volume_List <- append(simplicial_volume_List, depths1)
   }
   return(simplicial_volume_List)
@@ -82,10 +82,10 @@ halfspace_depth_list <- function(python_vector, data_points, data_dim) {
   halfspace_depth_List <- list()
   i <- 1
   while(i < data_points*data_dim){
-    m <-  i + 4
+    m <-  i + 9
     x1 <- data[i:m]
     depths1 <- depth.halfspace(x1, data, num.directions = 15000)
-    i <- i + 5
+    i <- i + 10
     halfspace_depth_List <- append(halfspace_depth_List, depths1)
   }
   return(halfspace_depth_List)
@@ -97,10 +97,10 @@ halfspace__exact_depth_list <- function(python_vector, data_points, data_dim) {
   halfspace_exact_depth_List <- list()
   i <- 1
   while(i < data_points*data_dim){
-    m <-  i + 4
+    m <-  i + 9
     x1 <- data[i:m]
     depths1 <- depth.halfspace(x1, data, exact = T)
-    i <- i + 5
+    i <- i + 10
     halfspace_exact_depth_List <- append(halfspace_exact_depth_List, depths1)
   }
   return(halfspace_exact_depth_List)
