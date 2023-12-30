@@ -22,7 +22,7 @@ and the line:
 
 # Extremal Data Depth
 
-In the Extremal_depth_Example notebook, you will add your data in "S = []".
+In the Extremal_Depth_Example notebook, you will add your data in "S = []".
 
 Example: S = [np.array([0.00000000e+00, 0.00000000e+00, 2.20226974e-03, 2.55981458e-05,
        0.00000000e+00, 4.04072202e-04, 2.44819312e-03, 5.71364980e-05,
