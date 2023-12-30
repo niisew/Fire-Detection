@@ -32,6 +32,6 @@ Example: S = [np.array([0.00000000e+00, 0.00000000e+00, 2.20226974e-03, 2.559814
        0.0584972 , 0.09760083, 0.11967495, 0.08229564, 0.04114782]), np.array([0.        , 0.        , 0.00495507, 0.00060599, 0.        ,
        0.00281534, 0.00055654, 0.02627647, 0.05126242, 0.02271137])]
 
+Output from Example:
 
-You can save the results to a csv with the following code:
-![Save results to csv](./extremal_data_depth_2.png)
+![image](https://github.com/niisew/Fire-Detection/assets/153964217/1038bc94-4f95-4f05-89d3-0242dddb4f95)
