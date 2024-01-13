@@ -1,26 +1,19 @@
 In this directory, you will find files related to data depth.
 
-# DDalpha.R
+# Background
+Data Depth allows us to see whether or not an image may or may not be on fire. It works by comparing the image to all other images and assigning it a "depth" relative to other images. 
 
-The ddalpha(1).R file is meant to be used with the "5_29_new_data_PD_vectorization_and_fire_index_(useful).ipynb" python notebook.
+## DDalpha.R
 
-This section will strictly cover the ddaplha(1).R file.
+The data_depth.R file is meant to be used with the "PD_vectorization_and_fire_index_Example.ipynb" python notebook.
 
-In this file you will find a varietly of data depth functions. Most of these functions are currently set to be used with data that is in R^10.
+In this file you will find a varietly of data depth functions that can be run.
 
-In order to change this, replace the line:
+## Extremal Data Depth
 
-"i <- i + 10" with "i <-i + DIMENSION_OF_YOUR_DATA"
+Extremal Depth is a newer depth function that is meant to be able to execute faster with large amounts of data. 
 
-and the line:
-
-
-"m <- i + 9" with "i <- i + DIMENSION_OF_YOUR_DATA-1"
-
-![Change ddalpha file](./ddalpha_1.png)
-
-
-# Extremal Data Depth
+Similar to the data depth functions found in the data_depth.R file, you will need your data to be in the form of a numpy array. 
 
 In the Extremal_Depth_Example notebook, you will add your data in "S = []".
 
